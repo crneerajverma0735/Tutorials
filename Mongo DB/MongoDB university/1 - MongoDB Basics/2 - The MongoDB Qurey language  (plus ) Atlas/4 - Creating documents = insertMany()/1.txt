@@ -1,0 +1,2 @@
+1. db.moviesScratch.insertMany([{object},{object}])
+2. db.moviesScratch.insertMany([{object},{object},{"ordered":false}])

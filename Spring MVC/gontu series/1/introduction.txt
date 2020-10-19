@@ -1,0 +1,4 @@
+===> Some definations of MVC Says.
+
+. Model is not just the data it can be ay logic too which is generating data(like this - 
+  you may find many people speaking different definations of model, view and a controller)

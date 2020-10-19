@@ -1,0 +1,7 @@
+1. use video
+
+2. db.movieDetails.find({"genres":["Comedy","Western"]}).pretty()
+
+3. db.movieDetails.find({"genres":"Comedy"}).pretty()
+
+4. db.movieDetails.find({"genres.1":"Western"}).pretty()

@@ -1,0 +1,20 @@
+//Database -> Collections -> Documents
+//Company -> Employees -> Documents
+
+
+db.employees.find().pretty();
+
+
+// 1 means select 0 means not select
+db.employees.find({},{"FirstName":1}).pretty();
+
+
+// don't want id filed so we are using 0
+db.employees.find({},{"FirstName":1,"_id":0}).pretty();
+
+db.employees.find({},{"FirstName":1,"LastName":1,"_id":0}).pretty();
+
+
+
+
+

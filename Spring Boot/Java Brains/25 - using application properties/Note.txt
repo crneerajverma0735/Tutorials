@@ -1,0 +1,2 @@
+use all file same as last folder
+and APPLICATION.PROPERTIES in resource folder

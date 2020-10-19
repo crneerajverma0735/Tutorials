@@ -1,0 +1,24 @@
+//Database -> Collections -> Documents
+//Company -> Employees -> Documents
+
+
+//AND condition
+db.employees.find({
+    "Skill":"MongoDB",
+    "Salary":"80000"
+}).pretty();
+
+// OR condition
+db.employees.find({
+    $or:[{"Skill":"MongoDB"},{"Salary":"100000"}]
+}).pretty();
+
+
+// both AND & OR condition
+db.employees.find({
+    "Skill":"MongoDB",
+    $or:[{"Salary":"80000"},{"Salary":"85000"}]
+}).pretty();
+
+
+

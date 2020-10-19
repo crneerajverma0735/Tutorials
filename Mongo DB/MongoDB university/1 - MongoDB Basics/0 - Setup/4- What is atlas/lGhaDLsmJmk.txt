@@ -1,0 +1,81 @@
+In this lesson, we'll talk about Atlas.
+
+You'll learn what Atlas is, what it's used for, and take a look at the Atlas interface.
+
+Atlas is MongoDB's database as a service solution.
+
+It provides functionality to set up your database in the cloud without needing to configure the fine details yourself manually using the Shell.
+
+Atlas also handles replication, which means your database maintains redundant copies of data to increase availability.
+
+Let's talk a little bit about how Atlas works.
+
+Atlas users can deploy clusters, which are groups of servers that store your data.
+
+These servers are configured in what we call a replica set, which is a cluster where each server stores the same data.
+
+This means that each time you insert or update a document, redundant copies are stored within the set.
+
+Using a replica set ensures that if you lose access to a server in your cluster you're not going to lose your data.
+
+All of the servers in your cluster exist in the cloud on the cloud service provider of your choice.
+
+So why should we use Atlas?
+
+One main reason is the simplicity of setup.
+
+Atlas manages the details of creating clusters for you, which simplifies the operational overhead of running a deployment.
+
+The Atlas interface makes it easier to manage and deploy MongoDB across cloud providers and regions.
+
+Atlas is also a great way to experiment with new MongoDB tools and features.
+
+In this course, you'll connect to an existing Atlas cluster and query its data.
+
+You'll also create your own Atlas cluster and practice inserting and updating documents in your database.
+
+You'll learn how to connect to Atlas outside the Atlas interface using compass, which is a graphical user interface for MongoDB and the Mongo Shell.
+
+Atlas has different pricing levels depending upon the size and usage of your database.
+
+In this course, we'll be using the Atlas free tier, which allows you to deploy a free tier cluster.
+
+A free cluster is a three server replica set with 512 megabytes of storage.
+
+Free tier clusters never expire.
+
+Under the free tier, you'll have access to a subset of Atlas features like Charts and Stitch, which we'll discuss later in this lesson.
+
+If you're learning how to use MongoDB or creating a small scale application, the free tier is a great option for storing your data.
+
+Now that we know what Atlas is let's take a look at the Atlas interface.
+
+Note that the interface might be a little different in other lessons, but the features we'll talk about should be the same.
+
+The main Atlas page shows all of your clusters.
+
+We can take a look at the data in our cluster using the Data Explorer by clicking the collections button.
+
+Here, we can see all of the documents within our databases and search for specific documents.
+
+We'll learn more about how to filter our data in the next chapter.
+
+Atlas also integrates with several MongoDB services.
+
+These features are beyond the scope of this course, but you can explore them as you learn more about MongoDB.
+
+You can use the Atlas interface to connect your cluster with MongoDB Stitch.
+
+Stitch is a serverless platform that makes it easier to use MongoDB and your web in mobile applications.
+
+The Charts feature allows you to create visual representations of your data.
+
+Atlas also allows you to configure users with different privileges levels in your database.
+
+This is important, because as your database grows larger you'll want to control the data users can access.
+
+Let's recap what we learned in this lesson.
+
+We defined Atlas as a database as a service that helps you deploy and manage MongoDB clusters.
+
+We learned about how Atlas stores data in the cloud in replica sets to increase availability, and we looked at some of Atlas's feature like the Data Explorer, which we'll use in this course, and Stitch and Charts, which are beyond the scope of this course.

@@ -1,0 +1,43 @@
+Database -> Collections -> Documents
+Company -> Employees -> Documents
+
+db.employees.find();
+
+db.employees.find().pretty();
+
+db.employees.findOne();
+
+db.employees.find({
+    "EmpNo" : "2"
+})
+
+//for less than
+db.employees.find({
+    "Age" : {$lt : "30"}
+})
+
+
+//for less then equal to
+db.employees.find({
+    "Age" : {$lte : "30"}
+})
+
+
+// for greater than
+db.employees.find({
+    "Age" : {$gt : "30"}
+})
+
+
+// for gerater than and equal to 
+db.employees.find({
+    "Age" : {$gte : "30"}
+})
+
+
+//not equal to
+db.employees.find({
+    "Age" : {$ne : "30"}
+})
+
+

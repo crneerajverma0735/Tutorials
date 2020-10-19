@@ -1,0 +1,9 @@
+//Total female and male
+db.employees.aggregate([{$group:{_id:"$Gender",Total:{$sum:1}}}])
+
+//Max age
+db.employees.aggregate([{$group:{_id:"$Gender",MaxAge:{$max:"$Age"}}}])
+
+
+//Min age
+db.employees.aggregate([{$group:{_id:"$Gender",MinAge:{$min:"$Age"}}}])

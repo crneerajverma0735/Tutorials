@@ -1,0 +1,25 @@
+//Database -> Collections -> Documents
+//Company -> Employees -> Documents
+
+
+db.employees.find().pretty();
+
+db.employees.remove(
+    { "_id" : ObjectId("5f38c66a38b7c68ce174c17b")}
+);
+
+
+//Remove only one documents
+db.employees.remove(
+    {"Skill":"MongoDB"},1
+);
+
+
+//Remove all of item which are matched
+db.employees.remove(
+    {"Skill":"MongoDB"}
+);
+
+
+
+

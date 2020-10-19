@@ -1,0 +1,33 @@
+//Database -> Collections -> Documents
+//Company -> Employees -> Documents
+
+
+db.employees.find().pretty();
+
+db.employees.find({},{"FirstName":1,"EmpNo":1,"_id":0}).pretty();
+
+
+// WE just get first Five
+db.employees.find({},{"FirstName":1,"EmpNo":1,"_id":0}).pretty().limit(5);
+
+
+// We want to skip first three
+db.employees.find({},{"FirstName":1,"EmpNo":1,"_id":0}).pretty().skip(3);
+
+
+// we just skip first three but also get first three after skipping first three
+db.employees.find({},{"FirstName":1,"EmpNo":1,"_id":0}).pretty().skip(3).limit(3);
+
+
+
+// sorting by field category in ascending order (1 is for ascending order and -1 is for descending order )
+db.employees.find({},{"FirstName":1,"EmpNo":1,"_id":0}).pretty().sort({"FirstName":1});
+
+
+// sorting by field category in descending order (1 is for ascending order and -1 is for descending order )
+db.employees.find({},{"FirstName":1,"EmpNo":1,"_id":0}).pretty().sort({"FirstName":-1});
+
+
+
+
+

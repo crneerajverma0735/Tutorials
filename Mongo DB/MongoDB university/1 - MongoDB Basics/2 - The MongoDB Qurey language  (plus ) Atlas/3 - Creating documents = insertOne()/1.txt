@@ -1,0 +1,5 @@
+1. use video
+
+2. show collections
+
+3. db.moviesScratch.insertOne({title:"Star Trek II: The Wrath of Khan, year: 1982, imdb: "tt0084726"})   

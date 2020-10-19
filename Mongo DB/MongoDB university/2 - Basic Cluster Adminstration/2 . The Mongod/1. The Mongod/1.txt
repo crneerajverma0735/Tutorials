@@ -1,0 +1,7 @@
+1. db.createCollection("employees")
+
+2. use admin
+
+3. db.shutdownServer()
+
+4. exit

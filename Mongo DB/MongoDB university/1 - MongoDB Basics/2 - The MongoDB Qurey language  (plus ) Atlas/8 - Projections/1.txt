@@ -1,0 +1,5 @@
+// 1 for included
+1. db.movieDetails.find({genres:"Western"},{title:1})
+
+// 0 for excluded
+2. db.movieDetails.find({genres:"Western"},{title:1,_id:0})

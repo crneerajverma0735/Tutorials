@@ -1,0 +1,31 @@
+//Database -> Collections -> Documents
+//Company -> Employees -> Documents
+
+
+db.employees.find(
+    { "Skill" : "MongoDB"}
+);
+
+//Update salary
+db.employees.update(
+    { "_id" : ObjectId("5f38c61138b7c68ce174c17a")},
+    {$set:{"Salary":"90000"}}
+)
+
+
+// it set only one
+db.employees.update(
+    {"Skill":"MongoDB"},
+    {$set:{"Salary":"150000"}}
+)
+
+
+// it set all matching one
+db.employees.update(
+    {"Skill":"MongoDB"},
+    {$set:{"Salary":"150000"}},
+    {multi:true}
+)
+
+
+

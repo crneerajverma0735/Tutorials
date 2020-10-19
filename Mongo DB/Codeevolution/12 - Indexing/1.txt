@@ -1,0 +1,19 @@
+//Database -> Collections -> Documents
+//Company -> Employees -> Documents
+
+
+db.employees.find().pretty();
+
+//we are setting index
+db.employees.ensureIndex({"Email":1})
+
+
+//
+db.employees.getIndexes();
+
+
+// Drop index
+db.employees.dropIndex({"Email":1});
+
+
+

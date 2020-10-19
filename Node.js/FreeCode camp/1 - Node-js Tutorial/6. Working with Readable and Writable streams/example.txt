@@ -1,0 +1,48 @@
+Deno was announced on JSConf EU 2018 by Ryan Dahl in his 
+talk "10 Things I Regret About Node.js".[7] In his talk, Ryan mentioned his regrets
+ about the initial design decisions with Node.js, focusing on his choices of not using 
+ Promises in API design, usage of the legacy GYP building system, node_modules and 
+ package.json, leaving out file extensions, magical module resolution with index.js and 
+ breaking the sandboxed environment of V8.[10] He eventually presented the prototype 
+ of Deno, aiming to achieve system call bindings through message passing with
+  serialization tools such as Protocol Buffers, and to provide command line flags for
+   access control.
+
+Deno was initially written in Go and used Protocol Buffers for serialization between 
+privileged(Go, with system call access) and unprivileged(V8) sides.[11] However, Go was
+ soon replaced with Rust due to concerns of double runtime and garbage collection 
+ pressure.[12] Tokio is introduced in place of libuv as the asynchronous event - 
+ driven platform, [13] and Flatbuffers is adopted for faster, "zero-copy" serialization
+  and deserialization[14] but later in August 2019, FlatBuffers were finally removed[15] 
+  after publishing benchmarks that measured a significant overhead of serialization in
+   April 2019.[16]
+
+
+   Deno was initially written in Go and used Protocol Buffers for serialization between 
+privileged(Go, with system call access) and unprivileged(V8) sides.[11] However, Go was
+ soon replaced with Rust due to concerns of double runtime and garbage collection 
+ pressure.[12] Tokio is introduced in place of libuv as the asynchronous event - 
+ driven platform, [13] and Flatbuffers is adopted for faster, "zero-copy" serialization
+  and deserialization[14] but later in August 2019, FlatBuffers were finally removed[15] 
+  after publishing benchmarks that measured a significant overhead of serialization in
+   April 2019.[16]
+
+
+   Deno was initially written in Go and used Protocol Buffers for serialization between 
+privileged(Go, with system call access) and unprivileged(V8) sides.[11] However, Go was
+ soon replaced with Rust due to concerns of double runtime and garbage collection 
+ pressure.[12] Tokio is introduced in place of libuv as the asynchronous event - 
+ driven platform, [13] and Flatbuffers is adopted for faster, "zero-copy" serialization
+  and deserialization[14] but later in August 2019, FlatBuffers were finally removed[15] 
+  after publishing benchmarks that measured a significant overhead of serialization in
+   April 2019.[16]
+
+
+   Deno was initially written in Go and used Protocol Buffers for serialization between 
+privileged(Go, with system call access) and unprivileged(V8) sides.[11] However, Go was
+ soon replaced with Rust due to concerns of double runtime and garbage collection 
+ pressure.[12] Tokio is introduced in place of libuv as the asynchronous event - 
+ driven platform, [13] and Flatbuffers is adopted for faster, "zero-copy" serialization
+  and deserialization[14] but later in August 2019, FlatBuffers were finally removed[15] 
+  after publishing benchmarks that measured a significant overhead of serialization in
+   April 2019.[16]

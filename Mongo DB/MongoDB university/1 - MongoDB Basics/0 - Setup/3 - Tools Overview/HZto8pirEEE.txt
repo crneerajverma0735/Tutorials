@@ -1,0 +1,57 @@
+Hello.
+
+In this course, we will review a range of MongoDB capabilities using a variety of tools.
+
+We hope that using these tools will help better visualize new concepts and allow you to work with data in different ways.
+
+Here, we will introduce you to MongoDB Atlas, MongoDB Compass, and the Mongo Shell.
+
+While we won't dive deeply into each of these tools, by the end of the course, you will have enough knowledge to continue exploring MongoDB either independently or with our other MongoDB university courses.
+
+Let's start with Atlas.
+
+MongoDB Atlas is a platform that provides an interface to manage and deploy MongoDB across cloud providers and regions.
+
+It was built to launch and manage your deployments for you, which simplifies the operational overhead of running a deployment.
+
+This type of offering is called database as a service.
+
+What that means is that Atlas helps you easily setup and manage your database from your Atlas account on the web.
+
+There are multiple tiers of Atlas subscriptions.
+
+And for this course, we will be using the free tier subscription to set up a database, view and modify data.
+
+The free tier allows you to experiment with the platform at no cost to you.
+
+We will cover Atlas in more detail later in this chapter.
+
+Another tool that will be heavily used in this course is called Compass.
+
+Compass provides a graphical user interface that allows you to explore the data in your database.
+
+It is a great tool to get a quick view of the shape and state of your data, as well as test out MongoDB features as you are learning about the database and its functionality.
+
+You can use Compass to optimize query performance and manage indexes, among other things.
+
+The interface that you will see on your machine may differ from the one that you see in later lectures.
+
+There has been a number of updates to Compass since those lessons were recorded, but all the labs have been updated accordingly.
+
+Finally, we will be using the Mongo Shell, which is an interactive JavaScript interface to MongoDB.
+
+You do not need to know JavaScript to proceed with this course.
+
+Here, you will learn how to connect your Atlas instance, query and update data using the Mongo Shell, as well as import a data set into your own Atlas cluster.
+
+This is the third and last tool that we will use to interact with your database.
+
+The Mongo Shell is great for playing around with all the features that the database has to offer, and really learning about MongoDB query language and functionality.
+
+The following lectures and labs in this chapter will walk you through installing all three tools that are required to complete this course.
+
+Please keep in mind that some of the lectures may have an outdated campus or Atlas interface, or show fewer data sets in the database.
+
+This will not impede your ability to complete the course since the labs have been updated accordingly and the tools still have the functionality that you will be learning about.
+
+Finally, please check the lecture notes that are located under the videos as you are going through the course material.

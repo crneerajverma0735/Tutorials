@@ -1,0 +1,9 @@
+1. show dbs
+
+2. load("loadMoviesDetailsDataset.js")
+
+3. use video
+
+4. show collections
+
+5. db.movieDetails.find().pretty()

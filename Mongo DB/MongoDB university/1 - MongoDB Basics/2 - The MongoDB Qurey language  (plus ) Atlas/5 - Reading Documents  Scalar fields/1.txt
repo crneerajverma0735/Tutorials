@@ -1,0 +1,10 @@
+1. use video
+
+2. db.movieDetails.find({"year":1983}).pretty()
+
+3. db.movieDetails.find({"year":1983,"rated":"R"}).pretty()
+
+4. db.movieDetails.find({"imdb.rating":6.1}).pretty()
+
+5. db.movieDetails.count({"awards.wins":2,"awards.nominations":2})
+

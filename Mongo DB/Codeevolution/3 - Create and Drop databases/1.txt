@@ -1,0 +1,9 @@
+//Database -> Collections -> Documents
+
+use testdb
+db
+show dbs
+db.testcollection.insert({"Name":"Neeraj"})
+show dbs
+db.dropDatabase()
+show dbs

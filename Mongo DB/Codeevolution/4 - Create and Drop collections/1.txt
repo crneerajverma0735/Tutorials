@@ -1,0 +1,9 @@
+//Database -> Collections -> Documents
+
+db.createCollection("Test");
+show collections;
+
+db.newCollection.insert({"Name": "Test"})
+show collections;
+db.newCollection.drop();
+show collections;
